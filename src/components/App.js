@@ -7,7 +7,7 @@ const App = (props) => {
   return (
     <div className="App" id="main">
       <button onClick={()=>setBtnClass('show')} id="click">Show</button>
-      <button onClick={()=>setBtnClass('hide')} id="click">Hide</button>
+      {/* <button onClick={()=>setBtnClass('hide')} id="click">Hide</button> */}
       <p className={btnClass} id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>
     </div>
   );
